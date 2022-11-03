@@ -1,6 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import Menu from "./components/Menu";
+import Card from "./components/Card";
 
 const Titles = ({ title, subtitle, subsubtitle }) => {
   return (
@@ -10,24 +12,19 @@ const Titles = ({ title, subtitle, subsubtitle }) => {
       <h3>{subsubtitle}</h3>
     </div>
   );
-}
+};
 
-const Card = ({ title, description, price, img }) => {
-  return (
-    <div className="cards">
-      <img src={img} alt="imagen" />
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <p>{price}</p>
-    </div>
-  );
-}
+
+
+
+
 
 function App() {
   return (
     <main>
+      <Menu/>
       <div className="div-title">
-        <Titles title="Pet-Ecommerce" />
+        <Titles title="Food" />
       </div>
       <section>
         <Card
