@@ -1,11 +1,15 @@
 import React from "react";
+import Carrito from "../assets/carrito.png";
+import  "../styles/menu.css"
 
 const Menu = () => {
   return (
     <header>
-      <nav>
+      <nav className="navbar">
         <ul>
-          <span>FoodBreak</span>
+        <li>
+            <a href="">Pawg</a>
+          </li>
           <li>
             <a href="">About</a>
           </li>
@@ -13,13 +17,13 @@ const Menu = () => {
             <a href="">Products</a>
           </li>
           <li>
-            <a href="">Products</a>
+            <a href="">Contact</a>
           </li>
           <li>
-            <a href=""><img src="" alt=""/></a>
-          </li>
-          <li>
-            <a href=""></a>
+            <a href="">
+              <img src={Carrito} alt="Carrito" width={20} height={20} />
+              <span> Tu carrito</span>
+            </a>
           </li>
         </ul>
       </nav>

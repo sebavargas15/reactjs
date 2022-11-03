@@ -24,7 +24,7 @@ function App() {
     <main>
       <Menu/>
       <div className="div-title">
-        <Titles title="Food" />
+        <Titles title="Pawg-Store" />
       </div>
       <section>
         <Card
