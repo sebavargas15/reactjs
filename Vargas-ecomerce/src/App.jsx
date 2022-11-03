@@ -24,26 +24,44 @@ function App() {
     <main>
       <Menu/>
       <div className="div-title">
-        <Titles title="Pawg-Store" />
+        <Titles title="FoodHealthy" />
       </div>
       <section>
         <Card
           img={reactLogo}
-          title="Hueso"
-          description="Hueso para perros"
+          title="lorem"
+          description="lorem"
           price="100"
         />
         <Card
           img={reactLogo}
-          title="Camita"
-          description="Cama de algodon"
-          price="700"
+          title="lorem"
+          description="lorem"
+          price="100"
         />
         <Card
           img={reactLogo}
-          title="Racion"
-          description="Racion para gatos"
-          price="1000"
+          title="lorem"
+          description="lorem"
+          price="100"
+        />
+        <Card
+          img={reactLogo}
+          title="lorem"
+          description="lorem"
+          price="100"
+        />
+        <Card
+          img={reactLogo}
+          title="lorem"
+          description="lorem"
+          price="100"
+        />
+        <Card
+          img={reactLogo}
+          title="lorem"
+          description="lorem"
+          price="100"
         />
       </section>
     </main>

@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from "react";
+import "../styles/card.css";
 const Card = ({ title, description, price, img }) => {
   return (
     <div className="cards">
@@ -8,7 +8,8 @@ const Card = ({ title, description, price, img }) => {
       <p>{description}</p>
       <p>{price}</p>
     </div>
-  )
-}
 
-export default Card
+  );
+};
+
+export default Card;
