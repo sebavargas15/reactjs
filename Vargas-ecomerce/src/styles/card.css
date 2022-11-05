@@ -1,14 +1,15 @@
 .cards {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin: 0 auto;
+    padding: 0 20px;
 }
 
-section {
+.cards-section{
+    padding-top: 5rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }

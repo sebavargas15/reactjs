@@ -1,14 +1,14 @@
 import React from "react";
-import Carrito from "../assets/carrito.png";
 import "../styles/menu.css";
+import CartWidget from "./CartWidget";
+import Titles from "./Titles";
 
 const Menu = () => {
   return (
-    <header>
       <nav className="navbar">
         <ul>
           <li>
-            <a href="#">Pawg</a>
+            <a href="#">FoodHealthy</a>
           </li>
           <li>
             <a href="#">About</a>
@@ -21,13 +21,15 @@ const Menu = () => {
           </li>
           <li>
             <a href="#">
-              <img src={Carrito} alt="Carrito" width={20} height={20} />
+              <CartWidget />
               <span> Tu carrito</span>
             </a>
           </li>
         </ul>
+        <Titles title="FoodHealthy"/>
       </nav>
-    </header>
+
+
   );
 };
 

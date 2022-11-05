@@ -8,7 +8,6 @@ const Card = ({ title, description, price, img }) => {
       <p>{description}</p>
       <p>{price}</p>
     </div>
-
   );
 };
 
